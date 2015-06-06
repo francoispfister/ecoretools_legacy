@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.emf.ecoretools.legacy.tabbedproperties;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.7.0,4.0.0)
+ ",org.eclipse.ui.views.properties.tabbed;visibility:="reexport";bundl
+ e-version="[3.5.0,4.0.0)",org.eclipse.emf.ecore;visibility:="reexport
+ ";bundle-version="[2.7.0,3.0.0)",org.eclipse.emf.edit.ui;visibility:=
+ "reexport";bundle-version="[2.7.0,3.0.0)",org.eclipse.emf.ecore.edit;
+ visibility:="reexport";bundle-version="[2.7.0,3.0.0)"
+Bundle-Activator: org.eclipse.emf.ecoretools.legacy.tabbedproperties.internal.TabbedPropertiesPlugin
+Export-Package: org.eclipse.emf.ecoretools.legacy.tabbedproperties,
+ org.eclipse.emf.ecoretools.legacy.tabbedproperties.internal;x-internal:=true,
+ org.eclipse.emf.ecoretools.legacy.tabbedproperties.internal.sections;x-internal:=true,
+ org.eclipse.emf.ecoretools.legacy.tabbedproperties.internal.sections.listeners;x-internal:=true,
+ org.eclipse.emf.ecoretools.legacy.tabbedproperties.internal.utils;x-internal:=true,
+ org.eclipse.emf.ecoretools.legacy.tabbedproperties.providers,
+ org.eclipse.emf.ecoretools.legacy.tabbedproperties.sections,
+ org.eclipse.emf.ecoretools.legacy.tabbedproperties.sections.widgets,
+ org.eclipse.emf.ecoretools.legacy.tabbedproperties.utils
+Bundle-Version: 1.0.0.v20110601-1614
+Ant-Version: Apache Ant 1.7.1
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.5.0_16-b02 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
